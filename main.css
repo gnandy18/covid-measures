@@ -1,0 +1,119 @@
+/************************************************************
+** Name: Gargi Nandy
+** Course: ISQA 3900
+** Assignment: Activity 2
+*************************************************************/
+
+/************************************************************
+Heading color
+*************************************************************/
+h1 {
+    color:black;
+  }
+
+/************************************************************
+Body color annimation
+*************************************************************/
+body {
+
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+  from {background-color: cornsilk;}
+  to {background-color: darksalmon;}
+}
+
+/************************************************************
+Header section formatting
+*************************************************************/
+#header-section
+{
+    max-width: 1000px;
+    /*margin: 0 auto;*/
+    padding: 0 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************************************************************
+Body (info section) formatting
+*************************************************************/
+#info-section
+{
+    float:none;
+    width:1000px;
+    height:200px;
+
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************************************************************
+Main page pic formatting
+*************************************************************/
+.pics
+{
+    float:none;
+    width:200px;
+    height:200px;
+    margin:20px;
+    border-radius: 10px;
+
+
+}
+
+/************************************************************
+Sub-pages pic formatting
+*************************************************************/
+.newpage
+{
+    float:left;
+    width:250px;
+    height:250px;
+    margin:20px;
+    border-radius: 20px;
+
+
+}
+
+/************************************************************
+Sub-pages body (info section) formatting
+*************************************************************/
+#info-section-details
+{
+  float:none;
+    width:700px;
+    height:700px;
+
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************************************************************
+Button formatting
+*************************************************************/
+#button{
+  text-decoration:none;
+  display: inline-block;
+  padding: 16px 16px;
+
+}
+/************************************************************
+Button text color
+************************************************************
+.previous {
+  background-color:darkseagreen;
+  color: black;
+
+}*/
+
+
+
+
+
+
